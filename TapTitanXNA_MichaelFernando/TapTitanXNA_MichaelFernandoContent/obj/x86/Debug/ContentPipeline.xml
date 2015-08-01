@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>adsfasgawerhaejrak.fw.png</Source>
+      <Name>adsfasgawerhaejrak.fw</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\adsfasgawerhaejrak.fw.xnb</Output>
+      <Time>2015-07-04T08:21:32.4891872+08:00</Time>
+    </Item>
+    <Item>
+      <Source>universel.jpg</Source>
+      <Name>universel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>c:\users\istudent\documents\visual studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\universel.xnb</Output>
+      <Time>2015-06-20T09:45:18.5765713+08:00</Time>
+    </Item>
+    <Item>
+      <Source>sprite.png</Source>
+      <Name>sprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\sprite.xnb</Output>
+      <Time>2015-06-27T10:45:57.9428897+08:00</Time>
+    </Item>
+    <Item>
+      <Source>gumber.jpg.png</Source>
+      <Name>gumber.jpg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\gumber.jpg.xnb</Output>
+      <Time>2015-07-18T08:45:18.5021247+08:00</Time>
+    </Item>
+    <Item>
+      <Source>right.png</Source>
+      <Name>right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\right.xnb</Output>
+      <Time>2015-07-04T10:25:27.5707826+08:00</Time>
+    </Item>
+    <Item>
+      <Source>left.png</Source>
+      <Name>left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\left.xnb</Output>
+      <Time>2015-07-04T10:43:17.4185288+08:00</Time>
+    </Item>
+    <Item>
+      <Source>down.png</Source>
+      <Name>down</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\down.xnb</Output>
+      <Time>2015-07-04T10:45:01.0975288+08:00</Time>
+    </Item>
+    <Item>
+      <Source>up.png</Source>
+      <Name>up</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\up.xnb</Output>
+      <Time>2015-07-04T10:46:35.8715288+08:00</Time>
+    </Item>
+    <Item>
+      <Source>AODown.png</Source>
+      <Name>AODown</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\AODown.xnb</Output>
+      <Time>2015-07-11T09:54:22.7570879+08:00</Time>
+    </Item>
+    <Item>
+      <Source>AOLeft.png</Source>
+      <Name>AOLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\AOLeft.xnb</Output>
+      <Time>2015-07-11T09:54:41.0010879+08:00</Time>
+    </Item>
+    <Item>
+      <Source>AORight.png</Source>
+      <Name>AORight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\AORight.xnb</Output>
+      <Time>2015-07-11T09:54:56.1410879+08:00</Time>
+    </Item>
+    <Item>
+      <Source>AOUp.png</Source>
+      <Name>AOUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\AOUp.xnb</Output>
+      <Time>2015-07-11T10:16:32.3230845+08:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2015-07-18T08:48:44.0578321+08:00</Time>
+    </Item>
+    <Item>
+      <Source>button.png</Source>
+      <Name>button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\button.xnb</Output>
+      <Time>2015-07-18T09:14:15.1689826+08:00</Time>
+    </Item>
+    <Item>
+      <Source>button2.png</Source>
+      <Name>button2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\button2.xnb</Output>
+      <Time>2015-07-18T09:25:25.2408236+08:00</Time>
+    </Item>
+    <Item>
+      <Source>ad.png</Source>
+      <Name>ad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\ad.xnb</Output>
+      <Time>2015-07-18T09:48:18.0878168+08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernandoContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernandoContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\istudent\Documents\Visual Studio 2010\Projects\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+08:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-09-23T11:53:57.1558968+08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

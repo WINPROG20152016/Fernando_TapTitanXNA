@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapTitanXNA_MichaelFernando", "TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando.csproj", "{49ED5476-5921-47F9-8F61-D7325339E39C}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "TapTitanXNA_MichaelFernandoContent", "TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernandoContent\TapTitanXNA_MichaelFernandoContent.contentproj", "{58769B60-9D36-4637-A6A2-DFFE60ECAA71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49ED5476-5921-47F9-8F61-D7325339E39C}.Debug|x86.ActiveCfg = Debug|x86
+		{49ED5476-5921-47F9-8F61-D7325339E39C}.Debug|x86.Build.0 = Debug|x86
+		{49ED5476-5921-47F9-8F61-D7325339E39C}.Release|x86.ActiveCfg = Release|x86
+		{49ED5476-5921-47F9-8F61-D7325339E39C}.Release|x86.Build.0 = Release|x86
+		{58769B60-9D36-4637-A6A2-DFFE60ECAA71}.Debug|x86.ActiveCfg = Debug|x86
+		{58769B60-9D36-4637-A6A2-DFFE60ECAA71}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
