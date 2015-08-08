@@ -25,7 +25,7 @@ namespace TapTitanXNA_MichaelFernando
         Game1 game1;
         SpriteFont damageStringFont;
         int damageNumber = 0;
-        int exitcheck = 0;
+        int buttonCheck = 0;
         Button playButton;
         Button attackButton;
         Button ad;
@@ -43,7 +43,7 @@ namespace TapTitanXNA_MichaelFernando
             damageStringFont = content.Load<SpriteFont>("SpriteFont1");
             playButton = new Button(content, "button", new Vector2(500,150));
             attackButton = new Button(content, "button2", new Vector2(310,-10));
-            ad = new Button(content, "ad", new Vector2(500, 500));
+            ad = new Button(content, "loa", new Vector2(700, 450));
             hero.LoadContent();
 
         }
@@ -59,15 +59,18 @@ namespace TapTitanXNA_MichaelFernando
 
             oldMouseState = mouseState;
 
-            
+
             if (attackButton.Update(gameTime, mouseX, mouseY, mpressed, prev_mpressed))
             {
                 damageNumber += 10;
+                hero.attack();
+                buttonCheck = 1;
             }
             if (damageNumber == 110)
             {
                 game1.Exit();
-            }    
+            }
+            buttonCheck = 0;
         }
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {

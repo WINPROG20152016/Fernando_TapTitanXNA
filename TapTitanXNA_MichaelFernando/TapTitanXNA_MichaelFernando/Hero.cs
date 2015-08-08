@@ -35,7 +35,7 @@ namespace TapTitanXNA_MichaelFernando
 
             player = content.Load<Texture2D>("adsfasgawerhaejrak.fw");
 
-            idleAnimation = new Animation(content.Load<Texture2D>("up"), 0.1f, true);
+            idleAnimation = new Animation(content.Load<Texture2D>("up"), 0.1f, true, 8);
 
             int positionX = (windowWidth / 2) - (player.Width / 4);
             int positionY = (windowHeight / 2) - (player.Height / 4);
@@ -50,28 +50,33 @@ namespace TapTitanXNA_MichaelFernando
            
             if (mouseState.LeftButton == ButtonState.Pressed && oldMouseState.LeftButton == ButtonState.Released)
             {
-                playerPosition.X -= 10;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("left"), 0.1f, Action));
+                //playerPosition.X -= 10;
+                //spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("left"), 0.1f, Action));
 
             }
             if (mouseState.RightButton == ButtonState.Pressed && oldMouseState.RightButton == ButtonState.Released)
             {
                 playerPosition.X += 10;
-                    spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("right"), 0.1f, Action));
+                    spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("right"), 0.1f, Action, 8));
             }
             if (mouseState.ScrollWheelValue < oldScrollWheelValue)
             {
                 playerPosition.Y += 10;
                 oldScrollWheelValue = mouseState.ScrollWheelValue;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("up"), 0.1f, Action));
+                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("up"), 0.1f, Action, 8));
             }
             if (mouseState.ScrollWheelValue > oldScrollWheelValue)
             {
                 playerPosition.Y -= 10;
                 oldScrollWheelValue = mouseState.ScrollWheelValue;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("down"), 0.1f, false));
+                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("down"), 0.1f, false, 8));
             }
         }
+
+        public void attack() {
+            spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("atk"), 0.1f, true, 2));
+        }
+
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             //spriteBatch.Draw(player, playerPosition, Color.White);

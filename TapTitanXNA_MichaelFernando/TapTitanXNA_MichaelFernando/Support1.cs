@@ -33,9 +33,9 @@ namespace TapTitanXNA_MichaelFernando
         public void LoadContent()
         {
 
-            //player = content.Load<Texture2D>("adsfasgawerhaejrak.fw");
+            player = content.Load<Texture2D>("adsfasgawerhaejrak.fw");
 
-            idleAnimation = new Animation(content.Load<Texture2D>("AOUp"), 0.1f, true);
+            idleAnimation = new Animation(content.Load<Texture2D>("AOUp"), 0.1f, true, 8);
 
             int positionX = (windowWidth / 2) - (player.Width / 4);
             int positionY = (windowHeight / 2) - (player.Height / 4);
@@ -51,25 +51,24 @@ namespace TapTitanXNA_MichaelFernando
             if (mouseState.LeftButton == ButtonState.Pressed && oldMouseState.LeftButton == ButtonState.Released)
             {
                 playerPosition.X -= 10;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AOLeft"), 0.1f, Action));
-
+                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AOLeft"), 0.1f, Action, 4));
             }
             if (mouseState.RightButton == ButtonState.Pressed && oldMouseState.RightButton == ButtonState.Released)
             {
                 playerPosition.X += 10;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AORight"), 0.1f, Action));
+                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AORight"), 0.1f, Action, 4));
             }
             if (mouseState.ScrollWheelValue < oldScrollWheelValue)
             {
                 playerPosition.Y += 10;
                 oldScrollWheelValue = mouseState.ScrollWheelValue;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AOUp"), 0.1f, Action));
+                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AOUp"), 0.1f, Action, 4));
             }
             if (mouseState.ScrollWheelValue > oldScrollWheelValue)
             {
                 playerPosition.Y -= 10;
                 oldScrollWheelValue = mouseState.ScrollWheelValue;
-                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AODown"), 0.1f, Action));
+                spritePlayer.PlayAnimation(new Animation(content.Load<Texture2D>("AODown"), 0.1f, Action, 4));
             }
         }
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

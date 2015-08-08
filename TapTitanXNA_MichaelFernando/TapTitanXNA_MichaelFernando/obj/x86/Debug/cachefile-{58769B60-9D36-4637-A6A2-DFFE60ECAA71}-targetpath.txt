@@ -10,7 +10,10 @@ Content\AODown.xnb
 Content\AOLeft.xnb
 Content\AORight.xnb
 Content\AOUp.xnb
-Content\SpriteFont1.xnb
 Content\button.xnb
 Content\button2.xnb
 Content\ad.xnb
+Content\SpriteFont1.xnb
+Content\attack.fw.xnb
+Content\atk.xnb
+Content\loa.xnb

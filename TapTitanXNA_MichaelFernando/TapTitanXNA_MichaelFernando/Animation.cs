@@ -12,18 +12,16 @@ namespace TapTitanXNA_MichaelFernando
         public float frameTime;
         public bool isLooping;
 
-        public int FrameCount
-        {
-            get { return texture.Width / FrameWidth; }
-        }
-        public int FrameWidth { get { return texture.Width / 8; } }
+        public int FrameCount;
+        public int FrameWidth { get { return texture.Width / FrameCount; } }
         public int FrameHeight { get { return texture.Height; } }
 
-        public Animation(Texture2D texture, float frameTime, bool isLooping)
+        public Animation(Texture2D texture, float frameTime, bool isLooping, int FrameCount)
         {
             this.texture = texture;
             this.frameTime = frameTime;
             this.isLooping = isLooping;
+            this.FrameCount = FrameCount;
         }
     }
 }
