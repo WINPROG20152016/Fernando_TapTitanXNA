@@ -25,10 +25,13 @@ namespace TapTitanXNA_MichaelFernando
         Game1 game1;
         SpriteFont damageStringFont;
         int damageNumber = 0;
+        int damageInput = 0;
         int buttonCheck = 0;
         Button playButton;
         Button attackButton;
         Button ad;
+
+        string time;
 
         public Level(ContentManager content, Game1 game1)
         {
@@ -49,14 +52,15 @@ namespace TapTitanXNA_MichaelFernando
         }
         public void Update(GameTime gameTime)
         {
-
+            
             mouseState = Mouse.GetState();
             mouseX = mouseState.X;
             mouseY = mouseState.Y;
             prev_mpressed = mpressed;
             mpressed = mouseState.LeftButton == ButtonState.Pressed;
             hero.Update(gameTime);
-
+            damageNumber += damageInput;
+            time = gameTime.TotalGameTime.Seconds.ToString();
             oldMouseState = mouseState;
 
 
@@ -66,10 +70,17 @@ namespace TapTitanXNA_MichaelFernando
                 hero.attack();
                 buttonCheck = 1;
             }
-            if (damageNumber == 110)
+            if (damageNumber >= 510)
             {
                 game1.Exit();
             }
+            if (playButton.Update(gameTime, mouseX, mouseY, mpressed, prev_mpressed))
+            {
+                damageInput = gameTime.TotalGameTime.Seconds;
+                damageInput++;
+                buttonCheck = 1;
+            }
+
             buttonCheck = 0;
         }
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -90,10 +101,11 @@ namespace TapTitanXNA_MichaelFernando
             playButton.Draw(gameTime, spriteBatch);
             attackButton.Draw(gameTime, spriteBatch);
             ad.Draw(gameTime, spriteBatch);
-            if (damageNumber == 100)
+            if (damageNumber >= 500)
             {
                 spriteBatch.DrawString(damageStringFont, "Ayy Lme u broke", new Vector2(500, 500), Color.Violet);
             }
+            spriteBatch.DrawString(damageStringFont, time, new Vector2(0, 50), Color.White);
 
         }
     }
