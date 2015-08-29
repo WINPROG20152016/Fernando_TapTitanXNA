@@ -172,6 +172,33 @@
       <Output>C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\loa.xnb</Output>
       <Time>2015-08-08T10:13:25.5560401+08:00</Time>
     </Item>
+    <Item>
+      <Source>atkbutton.png</Source>
+      <Name>atkbutton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\atkbutton.xnb</Output>
+      <Time>2015-08-29T10:08:32.5926948+08:00</Time>
+    </Item>
+    <Item>
+      <Source>atkbutton2.png</Source>
+      <Name>atkbutton2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\atkbutton2.xnb</Output>
+      <Time>2015-08-29T09:44:51.7261224+08:00</Time>
+    </Item>
+    <Item>
+      <Source>attack101.png</Source>
+      <Name>attack101</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\attack101.xnb</Output>
+      <Time>2015-08-29T10:59:38.8985457+08:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

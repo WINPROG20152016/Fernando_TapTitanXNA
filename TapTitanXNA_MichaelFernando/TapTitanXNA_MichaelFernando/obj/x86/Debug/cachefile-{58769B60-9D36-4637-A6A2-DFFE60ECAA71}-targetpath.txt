@@ -17,3 +17,6 @@ Content\SpriteFont1.xnb
 Content\attack.fw.xnb
 Content\atk.xnb
 Content\loa.xnb
+Content\atkbutton.xnb
+Content\atkbutton2.xnb
+Content\attack101.xnb

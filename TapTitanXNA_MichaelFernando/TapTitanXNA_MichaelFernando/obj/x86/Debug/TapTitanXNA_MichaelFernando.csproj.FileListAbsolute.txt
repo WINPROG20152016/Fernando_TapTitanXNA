@@ -45,3 +45,6 @@ C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\Tap
 C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\attack.fw.xnb
 C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\atk.xnb
 C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\loa.xnb
+C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\atkbutton.xnb
+C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\atkbutton2.xnb
+C:\Users\istudent\Documents\Fernando_TapTitanXNA\TapTitanXNA_MichaelFernando\TapTitanXNA_MichaelFernando\bin\x86\Debug\Content\attack101.xnb

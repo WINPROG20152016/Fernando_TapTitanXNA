@@ -27,6 +27,8 @@ namespace TapTitanXNA_MichaelFernando
         int damageNumber = 0;
         int damageInput = 0;
         int buttonCheck = 0;
+        int oldDamageInput = 0;
+        int trigger = 0;
         Button playButton;
         Button attackButton;
         Button ad;
@@ -44,8 +46,8 @@ namespace TapTitanXNA_MichaelFernando
         {
             background = content.Load<Texture2D>("universel");
             damageStringFont = content.Load<SpriteFont>("SpriteFont1");
-            playButton = new Button(content, "button", new Vector2(500,150));
-            attackButton = new Button(content, "button2", new Vector2(310,-10));
+            playButton = new Button(content, "atkbutton", new Vector2(550,-10));
+            attackButton = new Button(content, "atkbutton2", new Vector2(310,-10));
             ad = new Button(content, "loa", new Vector2(700, 450));
             hero.LoadContent();
 
@@ -59,28 +61,48 @@ namespace TapTitanXNA_MichaelFernando
             prev_mpressed = mpressed;
             mpressed = mouseState.LeftButton == ButtonState.Pressed;
             hero.Update(gameTime);
-            damageNumber += damageInput;
             time = gameTime.TotalGameTime.Seconds.ToString();
-            oldMouseState = mouseState;
+            if (trigger == 1)
+            {
+                if (damageInput == oldDamageInput)
+                {
 
-
+                }
+                else
+                {
+                    trigger = 1;
+                }
+            }
+            if (damageInput % 1 == 0 && trigger == 1)
+            {
+                damageNumber ++;
+            }
             if (attackButton.Update(gameTime, mouseX, mouseY, mpressed, prev_mpressed))
             {
-                damageNumber += 10;
+                damageNumber += 50;
                 hero.attack();
                 buttonCheck = 1;
             }
-            if (damageNumber >= 510)
+            if (damageNumber > 2550)
             {
                 game1.Exit();
             }
             if (playButton.Update(gameTime, mouseX, mouseY, mpressed, prev_mpressed))
             {
+                hero.attack();
                 damageInput = gameTime.TotalGameTime.Seconds;
+                oldDamageInput = damageInput;
                 damageInput++;
                 buttonCheck = 1;
+                if (damageInput == oldDamageInput)
+                {
+                    
+                }
+                else
+                {
+                    trigger = 1;
+                }
             }
-
             buttonCheck = 0;
         }
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
@@ -97,15 +119,19 @@ namespace TapTitanXNA_MichaelFernando
             spriteBatch.DrawString(damageStringFont, "Ayy", Vector2.Zero, Color.Yellow);
             spriteBatch.DrawString(damageStringFont, "Ay", Vector2.Zero, Color.Orange);
             spriteBatch.DrawString(damageStringFont, "A", Vector2.Zero, Color.Red);
-            spriteBatch.DrawString(damageStringFont, "-$ " + damageNumber, new Vector2(250,250), Color.Red);
+            spriteBatch.DrawString(damageStringFont, "HP: " + (2500 - damageNumber), new Vector2(200,250), Color.Red);
             playButton.Draw(gameTime, spriteBatch);
             attackButton.Draw(gameTime, spriteBatch);
             ad.Draw(gameTime, spriteBatch);
-            if (damageNumber >= 500)
+            if (damageNumber >= 2500)
             {
-                spriteBatch.DrawString(damageStringFont, "Ayy Lme u broke", new Vector2(500, 500), Color.Violet);
+                spriteBatch.DrawString(damageStringFont, "You Win", new Vector2(500, 350), Color.Violet);
             }
-            spriteBatch.DrawString(damageStringFont, time, new Vector2(0, 50), Color.White);
+            if (trigger == 1)
+            {
+                spriteBatch.DrawString(damageStringFont, "BLEED", new Vector2(500,500), Color.Red);
+            }
+            //spriteBatch.DrawString(damageStringFont, time, new Vector2(0, 50), Color.White);
 
         }
     }
